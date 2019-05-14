@@ -22,3 +22,9 @@ echo Config::get('log.level') . PHP_EOL;
 
 //获取对象
 echo App::make('log')->say("jelly") . PHP_EOL;
+
+//storage目录
+echo CjsLsf\storage_path('') . PHP_EOL;
+
+//public 目录
+echo CjsLsf\public_path('') . PHP_EOL;

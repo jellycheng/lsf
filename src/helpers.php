@@ -1,8 +1,8 @@
 <?php
 namespace CjsLsf;
 
-use \CjsLsf\Facades\App;
-use \CjsLsf\Facades\Config;
+use App;
+use Config;
 
 function config_path($path)
 {
